@@ -7,6 +7,6 @@ RUN ./gradlew build -x test
 
 FROM openjdk:17-slim
 WORKDIR /app
-COPY --from=build /app/build/libs/dockerDemo-0.0.1-SNAPSHOT.jar .
-CMD ["java", "-jar", "dockerDemo-0.0.1-SNAPSHOT.jar"]
+COPY --from=build /app/build/libs/DockerDemo-0.0.1-SNAPSHOT.jar .
+CMD ["java", "-jar", "DockerDemo-0.0.1-SNAPSHOT.jar"]
 EXPOSE 2025
