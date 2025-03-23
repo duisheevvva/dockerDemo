@@ -7,7 +7,7 @@ services:
     ports:
       - "80:2025"
     environment:
-      SPRING_PROFILES_ACTIVE: main
+      SPRING_PROFILES_ACTIVE: master
       SERVER_PORT: 2025
       POSTGRES_DB: jdbc:postgresql://database:5432/postgres
       POSTGRES_USER: demouser
