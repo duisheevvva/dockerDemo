@@ -16,5 +16,6 @@ public class TestApi {
     @GetMapping("/bye")
     public String getBye(){
         return "Bye";
+
     }
 }
