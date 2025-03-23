@@ -2,7 +2,7 @@ version: "3.9"
 services:
   backend:
     image: '#image'
-    container_name: dockerDemo
+    container_name: dockerdemo
     restart: always
     ports:
       - "80:2025"
